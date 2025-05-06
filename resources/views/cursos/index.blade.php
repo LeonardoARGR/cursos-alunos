@@ -8,14 +8,14 @@
     <div class="row justify-content-center">
         <div class="col-5">
             <a href="" class="mb-4 mx-1 btn btn-outline-warning btn-lg w-50">Desenvolvimento de Sistemas</a>
-            <a href="" class="mb-4 mx-1 btn btn-outline-primary btn-lg">Editar</a>
+            <a href="{{ route('cursos.create') }}" class="mb-4 mx-1 btn btn-outline-primary btn-lg">Editar</a>
             <a href="" class="mb-4 mx-1 btn btn-outline-danger btn-lg">Excluir</a>
         </div>
     </div>
     <div class="row justify-content-center">
         <div class="col-5">
             <a href="" class="mb-4 mx-1 btn btn-outline-warning btn-lg w-50">Administração</a>
-            <a href="" class="mb-4 mx-1 btn btn-outline-primary btn-lg">Editar</a>
+            <a href="{{ route('cursos.create') }}" class="mb-4 mx-1 btn btn-outline-primary btn-lg">Editar</a>
             <a href="" class="mb-4 mx-1 btn btn-outline-danger btn-lg">Excluir</a>
         </div>
     </div>
